@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;      
+  }
+  header nav {
+      margin: 7px 0px;
+  }
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw; 
+    border-bottom: #fce138 solid 3px;
+  }
+  .hero {
+      background-image: url("./image/justice_league.jpg");
+      background-size: cover;
+      background-position: top;
+      height: 300px;
+      position: relative;
+      
+      display: flex;
+    }
+  .hero-box {
+    color: #fce138;
+    width: auto;
+    border: solid 3px #fce138;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+   }
+  }
+  .hero-subtitle {
+      display: flex;
+      flex-wrap: wrap;
+      color: silver;
+      position: absolute;
+      background-color: #fce138;
+      align-content: flex-end;
+    }
+    .subjet-title {
+        padding-left: 20px;
+        border-right: fce138 solid 3px;
+    }
+    .subjet-p {
+        background-color: wheat;
+    }
+    .subjet-title {
+        display: flex;
+        flex-wrap: wrap;
+    }
