@@ -172,11 +172,15 @@
         font-family: cursive;
         font-weight: bold;
         color: white;
+    }
+    div nav {
         
-        
-  
     }
     div nav ul li {
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: flex-end;
         border-bottom: solid 3px;
         margin-left: 30px;
         
