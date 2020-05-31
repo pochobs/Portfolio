@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -19,6 +20,8 @@
   header a {
     text-decoration: none;
     color: #fce138;
+    font-family: cursive;
+    font-stretch: narrower;
   }
   header h1 {
     font-weight: bold;
@@ -48,40 +51,41 @@
       background-position: top;
       height: 300px;
       position: relative;
-      
+      flex-wrap: wrap;
       display: flex;
     }
   .hero-box {
     color: #fce138;
     width: auto;
-    border: solid 3px #fce138;
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
-    background-color: grey;
-   }  }
+    
+   }  
   .hero-subtitle {
+      border: solid 3px #fce138;
       display: flex;
       flex-wrap: wrap;
-      color: silver;
+      color: white;
       position: absolute;
-      background-color: #fce138;
+      background-color: grey;
       align-content: flex-end;
+      position: absolute;
+      bottom: 20px;
+      right: 40px;
     }
+
     .grid-box{
+        background-image: url(./image/CIty.jpg);
         display: grid;
         grid-template-columns: 30% 70%;
         padding: 20px 40px; 
         grid-template-columns: end;
-        background-color: indigo;
         justify-content: space-between;
-        margin: 20px
+        margin: 0px
 
     }
     .subjet-title {
         padding-left: 20px;
-        border-right: #fce138 solid 3px;
-        color: #fce138;
+        border-right: white solid 3px;
+        color: white;
         display: grid;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -101,16 +105,18 @@
     }
     h3 {
         font-size: 36px;
-        border-right: yellowgreen 2px;
+        border-right: white 2px;
         bottom: 0px;
         padding: 80px
 
     }
     .subjet-p {
         font-size: 20px;
-        color: #fce138;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+        color: white;
+        font-style: italic;+
+        font-family: cursive;
+        font-stretch: narrower;
+        margin-left: 30px;
     }
 
     .hero-runBuddy {
@@ -128,7 +134,7 @@
         background-size: cover;
         flex-wrap: wrap;
         margin: 20px 20px;
-        border: yellow solid 2px;
+        border: whitesmoke solid 2px;
         color: tomato;
     }
     .zcup {
@@ -145,7 +151,7 @@
         background-size: cover;
         flex-wrap: wrap;
         margin: 20px 20px;
-        border: yellow solid 2px;
+        border: white solid 2px;
         color: tomato;
     }
     section div figure h3 {
@@ -165,12 +171,13 @@
         font-style: italic;
         font-family: cursive;
         font-weight: bold;
-        color: #fce138;
+        color: white;
         
         
   
     }
     div nav ul li {
         border-bottom: solid 3px;
+        margin-left: 30px;
         
     }
